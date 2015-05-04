@@ -1,0 +1,31 @@
+.cart-table{
+	margin-top: 30px;
+	overflow: auto;
+}
+.accept-edit, .cancel-edit{
+	display: none;
+}
+.total-cart-price-label{
+	font-weight: 700;
+	font-size: 20px;
+}
+.total-cart-price{
+	font-weight: 700;
+	font-size: 20px;
+	color: #5CB85C;
+}
+.link-to-checkout, .clean-cart{
+	margin-left: 10px;
+}
+.link-to-checkout, .clean-cart, .link-to-product{
+	margin-bottom: 10px;
+}
+.cart-table td,
+.cart-table tr th{
+    text-align: center;
+}
+
+.table-checkout{
+	overflow: auto;
+	margin-bottom: 20px;
+}

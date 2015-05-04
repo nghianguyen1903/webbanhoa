@@ -1,0 +1,94 @@
+
+/**
+ * Created by Agilsun Ltd
+ * This is file to use for all page website
+ */
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,vietnamese,latin-ext);
+
+ @font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+ }
+ .btn, .form-control, textarea, .alert{
+ 	border-radius: 0px !important;
+ }
+ textarea{
+ 	resize:none;
+ }
+ body, a, p, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+ }
+ ul{
+ 	list-style: none;
+ }
+
+ a:hover, a:focus, a{
+ 	text-decoration: none;
+ 	outline: none;
+ }
+ .container{
+ 	max-width: 960px;
+ 	width: 100%;
+ }
+
+ .title span{
+ 	color:#d03360;
+ 	font-weight: 800;
+ 	font-size: 30px;
+ }
+ .title span:first-child{
+ 	margin-right: 10px;
+ }
+ .title{
+ 	color: #2d0418;
+ 	border-bottom: 2px solid #d03360;
+ 	padding-bottom: 5px;
+ 	font-size: 20px;
+ 	font-weight: 600;
+ }
+ .modal-button{
+ 	background: none;
+ 	border: none;
+ }
+ .sidebar{
+ 	padding-right: 30px;
+ }
+ .category-list{
+ 	padding-left: 0px;
+ }
+ .sidebar-label{
+ 	color: #FFF;
+ 	padding: 7px;
+ 	font-size: 20px;
+
+	background: rgba(255,0,132,1);
+	background: -moz-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(31,24,28,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,132,1)), color-stop(100%, rgba(31,24,28,1)));
+	background: -webkit-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(31,24,28,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(31,24,28,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(31,24,28,1) 100%);
+	background: linear-gradient(to right, rgba(255,0,132,1) 0%, rgba(31,24,28,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#1f181c', GradientType=1 );
+ }
+ .category-list li a{
+ 	color: #D03360;;
+ 	font-size: 15px;
+ 	margin-bottom: 0px;
+ 	display: inline-block;
+ 	width: 100%;
+ 	padding: 8px;
+ 	-webkit-transition:background-color 0.3s;
+ 	-moz-transition:background-color 0.3s;
+ 	-o-transition:background-color 0.3s;
+ 	transition:background-color 0.3s;
+ }
+ .category-list li a:hover{
+ 	background-color: #333;
+ 	color: #FFF;
+ }

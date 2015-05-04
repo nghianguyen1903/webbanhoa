@@ -1,0 +1,151 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Fade transition for carousel items */
+.carousel .item {
+    left: 0 !important;
+      -webkit-transition: opacity .4s; /*adjust timing here */
+         -moz-transition: opacity .4s;
+           -o-transition: opacity .4s;
+              transition: opacity .4s;
+}
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+/* Fade controls with items */
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}
+
+/* STYLE FOR PRODUCT ITEM */
+.item-name{
+	padding: 5px;
+}
+.item-name p{
+	font-size: 18px;
+	color: #FFF;
+	margin-bottom: 0px;
+	text-align: center;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition:all ease 0.3s;
+}
+.item.bestseller .item-name p{
+	color: #333;
+}
+.product-wrap,.service-wrap{
+	margin-top: 30px;
+}
+.product-wrap .col-md-4{
+	margin-bottom: 30px;
+}
+.item:hover{
+	background-color: #da567c;
+}
+.item{
+	padding:3px;
+	background-color: #d03360;
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition:all ease 0.3s;
+}
+.item.bestseller{
+	background-color: #d6dd1b;
+}
+.item img{
+	max-width: 100%;
+	height: auto;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition:all ease 0.3s;
+}
+.item > a{
+	display: block;
+	width: 100%;
+}
+.item a:hover img{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+.item a:hover .item-name > p{
+	color: #d0cb3a;
+}
+.item.bestseller a:hover .item-name > p{
+	color: #d03360;
+}
+.item-info{
+	display: inline-block;
+	width: 100%;
+}
+.price{
+	font-size: 15px;
+	font-weight: 400;
+	color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.item.bestseller .price{
+	color: #333;
+}
+.price span{
+	font-weight: 700;
+}
+.addtocart span{
+	color: #FFF;
+	font-size: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition:all ease 0.3s;
+}
+.item.bestseller .addtocart span{
+	color: #333;
+}
+.addtocart:hover span{
+	color: #d0cb3a;
+}
+.item.bestseller .addtocart:hover span{
+	color: #d03360;
+}
+.item-thumbnail{
+	overflow: hidden;
+}
+.service-item img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

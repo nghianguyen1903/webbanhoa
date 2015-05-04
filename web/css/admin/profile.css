@@ -1,0 +1,97 @@
+/* 
+    Created on : April 2, 2015
+    Author     : Nghia Nguyen
+*/
+
+.form-create .modal-header
+{
+	background-color: #d0e5f7;
+	border-radius: 4px 4px 0px 0px;
+
+}
+.form-create .modal-footer{
+	background-color: #d0e5f7;
+	border-radius: 0px 0px 4px 4px ;
+}
+
+.form-group{
+	display: inline-block;
+}
+.form-group label{
+	float: left;
+	margin-right: 30px;
+	margin-top: 7px;
+}
+
+.form-info span,
+.form-info input{
+	
+}
+
+.form-group .input-group .fa{
+	width: 15px;
+}
+
+.ava-wrapper img{
+	width: 200px;
+	height: 200px;
+}
+
+.ava-wrapper{
+	width: 200px;
+}
+
+#anh-dai-dien{
+	position: absolute;
+	height: 100%;
+	opacity: 0;
+}
+
+.form-create .btn-lg-login{
+	margin-left: 50px;
+}
+
+.gen-password{
+	margin-top: 10px; 
+}
+
+.form-create .btn{
+	border-radius: 0px;
+}
+
+.form-create{
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 180px;
+	border: 2px solid #858585;
+}
+
+#yii-debug-toolbar{
+	display: none !important;
+}
+
+.btn-primary-login{
+	border-radius: 4px;
+}
+
+.failed-login{
+	font-size: 16px;
+	color: #ff0000;
+	background-color: #f0f0f0;
+	padding: 6px;
+	width: 83%;
+	text-align: center;
+}
+
+.bacground-login{
+	background-color: #c5c5c5;
+	padding: 0px;
+}
+
+.formular{
+	padding-bottom: 14%;
+}
+.site-login{
+	margin-bottom: 115px;
+}

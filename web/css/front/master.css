@@ -1,0 +1,73 @@
+/* ======================================================================================================= 
+=========================== STYLE FOR HEADER & FOOTER ====================================================
+==========================================================================================================*/
+
+/*STYLE FOR HEADER*/
+.header{
+	background-color: #d03360;
+	background-image: none;
+	border:none;
+	border-radius: 0px;
+}
+.main-menu{
+	padding-left: 0px;
+}
+.main-menu li{
+	display: inline-block;
+}
+.main-menu li:last-child{
+	float: right;
+}
+.main-menu li a{
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition:all ease 0.3s;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.main-menu li:first-child a{
+	margin-left: 0px;
+}
+.main-menu li:last-child a{
+	margin-right: 0px;
+}
+.main-menu li.active a{
+	font-weight: 700;
+}
+.main-menu li a:hover{
+	color: #fba4bd;
+}
+.search-wrap{
+	margin-top: 10px;
+}
+.search-box{
+	border-radius: 8px;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+}
+
+.main-menu li.active a{
+	margin-right: 40px;
+	margin-left: 20px;
+}
+
+/*STYLE FOR FOOTER*/
+footer{
+	background-color: #d03360;
+	margin-top: 30px;
+	padding: 15px;
+}
+footer p{
+	text-align: center;
+	color: #FFF;
+	margin-bottom: 0px;
+}

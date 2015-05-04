@@ -1,0 +1,50 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.section-form-contact h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #7f7e7e;
+}
+.section-form-contact input, .section-form-contact textarea {
+    font-size: 16px;
+    color: #c2c2c2;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid #c5c5c5;
+    padding: 15px;
+}
+.section-form-contact textarea {
+    min-height: 203px;
+}
+.section-form-contact button {
+    background: #d03360;
+    color: #fff;
+    padding: 20px 80px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    float: right;
+}
+.section-form-contact button:hover {
+    color: #cdcdcd;
+    background: #e93d6e;
+}
+
+.contact{
+	margin-top: 50px;
+}
+
+.maps{
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.maps iframe{
+	max-width: 100%;
+	width: 100%;
+}

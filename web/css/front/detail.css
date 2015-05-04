@@ -1,0 +1,92 @@
+/*STYLE FOR DETAIL PRODUCT PAGE*/
+.detail-info-wrap .col-md-5{
+	text-align: center;
+}
+.detail-info-wrap{
+	margin-bottom: 30px;
+}
+.detail-info-wrap img{
+	max-width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+.detail-name{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #d03360;
+	margin-top: 15px;
+}
+.detail-price span{
+	font-size: 20px;
+}
+.detail-description{
+	margin-top: 25px;
+	font-size: 18px;
+}
+.detail-quantity, .detail-price, .detail-status-instock, .detail-origin, .detail-status-outstock{
+	margin-bottom: 15px;
+}
+.detail-status-instock span, .detail-origin, .detail-status-outstock span{
+	font-size: 20px;
+}
+.detail-status-instock span:last-child{
+	text-transform: uppercase;
+	color: #419641;
+	font-weight: 600;
+}
+.detail-status-outstock span:last-child{
+	text-transform: uppercase;
+	color: #A94442;
+	font-weight: 600;
+}
+.detail-status-instock span.glyphicon{
+	color: #419641;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.detail-status-outstock span.glyphicon{
+	color: #A94442;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.detail-status-outstock{
+	display: none;
+}
+.detail-description-img{
+	margin-top: 30px;
+}
+.detail-description-img img{
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.separator{
+	margin-bottom: 40px;
+	margin-top: 30px;
+	display: inline-block;
+	width: 100%;
+}
+
+/*STYLE FOR DETAIL SERVICE PAGE*/
+.modal-booking{
+	background-color: rgba(208,51,96,0.8);
+	border: 1px solid #FFF;
+}
+.modal-booking .modal-header h4{
+	color: #FFF;
+	font-weight: 600;
+}
+.modal-booking .modal-header button{
+	color: #FFF;
+	opacity: 1 !important;
+	margin-top: -10px;
+}
+.modal-booking .modal-header button span{
+	font-size: 40px !important;
+}
+.order-service-form .form-group label{
+	font-size: 16px;
+	color: #FFF;
+	font-weight: 600;
+}
